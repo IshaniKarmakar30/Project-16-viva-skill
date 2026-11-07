@@ -1,0 +1,11 @@
+Operating Systems Concepts:
+1. Deadlock: A situation where a set of processes are blocked because each process is holding a resource and waiting for another resource held by another process.
+Four Coffman Conditions: Mutual Exclusion, Hold and Wait, No Preemption, Circular Wait.
+Prevention: Violate at least one of the four conditions.
+Avoidance: Banker's Algorithm uses resource allocation state and safe state detection.
+
+2. Paging and Virtual Memory:
+Virtual memory allows execution of processes not completely in physical memory.
+Paging divides virtual memory into pages and physical memory into frames.
+Page Fault: Occurs when a program accesses a page mapped in virtual address space, but not currently in physical RAM.
+Thrashing: A state where the CPU spends more time swapping pages in and out than executing actual process instructions due to insufficient memory.

@@ -1,0 +1,17 @@
+{
+  "name": "viva",
+  "command": "/viva",
+  "version": "1.0.0",
+  "description": "Conducts an interactive technical oral viva examination based on uploaded or pasted study notes. Asks 5 targeted questions one at a time, grades strictly, provides instant feedback, and gives a final diagnostic score.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "notes_file": {
+        "type": "string",
+        "description": "Path to the uploaded text/pdf notes or pasted study material"
+      }
+    },
+    "required": ["notes_file"]
+  },
+  "instruction_file": "instructions.md"
+}
